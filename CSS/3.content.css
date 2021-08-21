@@ -1,0 +1,166 @@
+.content
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 110px;
+    background: white;
+    top: -65px;
+    padding-top: 15px;
+}
+.content-left
+{
+    font-size: 3px;
+    max-width: 105px;
+    margin-left: 45px;
+}
+.content-left__title
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 6px;
+    margin-left: 5px;
+}
+.content-left__title::before
+{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 6px;
+    background: var(--before-color);
+    margin-left: -5px;
+}
+.content-left__des
+{
+    font-size: 2.5px;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+.content-left__des1
+{
+    margin-bottom: -5px;
+}
+.content-left__icon
+{
+    position: relative;
+    background: var(--before-color);
+    font-size: 7px;
+    margin-left: 0.3px;
+    padding: 3px 1px 1px 2px;
+}
+.content-left__icon:hover
+{
+    cursor: pointer;
+    background: #d0d5d9;
+}
+.content-right
+{
+    max-width: 119px;
+    font-size: 3px;
+    margin-left: 6px;
+    margin-top: 17px;
+}
+.content-right__1
+{
+    display: flex;
+    margin-bottom: 5px;
+}
+.content-right__text1
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+.content-right__first--title
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.content-right__first--text
+{
+    line-height: 1.5;
+}
+.content-right__2
+{
+    display: flex;
+    margin-bottom: 5px;
+}
+.content-right__text2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+.content-right__second--title
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.content-right__second--text
+{
+    line-height: 1.5;
+}
+.content-right__3
+{
+    display: flex;
+}
+.content-right__text3
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+.content-right__last--title
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.content-right__last--text
+{
+    line-height: 1.5;
+}
+.content-right__number
+{
+    width: 14px;
+    height: 9px;
+    background: var(--text-box-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.content::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3px;
+    background: var(--before-color);
+    bottom: 0;
+}
+.meet-the-team
+{
+    margin: -50px 46px 15px 46px;
+}
+.team
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 6px;
+    margin-left: 5px;
+    margin-bottom: 9px;
+}
+.team::before
+{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 6px;
+    background: var(--before-color);
+    margin-left: -6px;
+}

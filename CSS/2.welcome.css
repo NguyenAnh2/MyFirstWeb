@@ -1,0 +1,47 @@
+.welcome
+{
+    position: absolute;
+    top: 0px;
+    height:0;
+}
+.welcome__title
+{
+    text-transform: uppercase;
+    color: white;
+    font-size: 7px;
+    margin-bottom: -1px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.welcome__des
+{
+    color: white;
+    font-size: 4px;
+    max-width: 130px;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+.welcome__btn
+{
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 2px;
+    font-size: 3px;
+    padding: 2px 3px;
+    width: 25px;
+    text-transform: uppercase;
+    margin-top: 7px;
+    margin-left: 45px;
+}
+.btn__btn2
+{
+    margin-left: 0px;
+}
+.welcome__btn:hover
+{
+    cursor: pointer;
+    background: var(--text-box-color);
+    border: 0.7px solid var(--text-box-color);
+    transition: 0.2s linear;
+}

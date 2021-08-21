@@ -1,0 +1,129 @@
+.lovely-work
+{
+    width: 100%;
+    background-color: var(--bg-img-hover-color);
+    height: 135px;  
+}
+.lovely-work__title
+{
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 6px;
+    margin-left: 52px;
+    margin-top: 9px;
+    z-index: 1;
+    color: white;
+}
+.lovely-work__title::before
+{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 6px;
+    background: var(--bg-icon-hover-color);
+    margin-left: -7px;
+}
+.lovely-work__first
+{
+    position: relative;
+    display: flex;
+    background-color: var(--bg-img-hover-color);
+}
+.lovely-work__column1
+{
+    position: relative;
+    display: flex;
+    top: 22px;
+    left: 40px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+.lovely-work__img
+{
+    position: absolute;
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+}
+.lovely-work__img:hover
+{
+    opacity: 0.5;
+}
+
+.lovely-work__inside
+{
+  position: relative;
+  opacity: 0;
+  transition: 0.4s linear;
+  font-size: 5px;
+  width: 60px;
+  height: 9px;
+  top: 31px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+}
+.icon-lovely
+{
+    position: absolute;
+    font-size: 8px;
+    color: white;
+    top: -200%;
+    left: 40%;
+    cursor: pointer;
+}
+.lovely-work--content
+{
+    font-size: 3px;
+    margin-top: 3px;
+    margin-left: 2px;
+    font-weight: 500;
+    color: white;
+}
+.lovely-work__column1:hover .lovely-work__inside
+{
+    opacity: 1;
+}
+.lovely-work__column2
+{
+    position: relative;
+    display: flex;
+    top: 22px;
+    left: 40px;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+.lovely-work__last
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: var(--bg-img-hover-color);
+}
+.lovely-work__column2:hover .lovely-work__inside
+{
+    opacity: 1;
+}
+
+.lovely-work__btn--content
+{
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    top: 47.5px;
+    left: 135px;
+    transform: translateX(-35%);
+    font-size: 2.5px;
+    padding: 2px 3px;
+    border-radius: 1px;
+    border: 0.4px solid white;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.4s linear;
+}
+.lovely-work__btn--content:hover
+{
+    background-color: var(--text-box-color);
+    border: 0.4px solid var(--text-box-color);
+}

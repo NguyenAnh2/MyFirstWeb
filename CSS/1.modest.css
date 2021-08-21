@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+:root
+{
+    --primary-color: #1d2025;
+    --text-box-color: #24b7a4;
+    --before-color: #e0e4e8;
+    --bg-img-hover-color: #3b454e;
+    --bg-icon-hover-color: #4e5b63;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+}
+header
+{
+    position: relative;
+    background: var(--primary-color);
+    width: 100%;
+    height: 10px;   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header__logo
+{
+    position: absolute;
+    width: 15px;
+    height: 100%;
+    left: 50px;
+}
+.header__list
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 2px;
+    color: white;
+    align-items: center;
+    right: 50px;
+}
+.header__list--link
+{
+    cursor: pointer;
+    list-style: none;
+    color: white;
+    margin-left: 2px;
+    height: 5px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.header__list--link:hover
+{
+    position: static;
+    border: 0.3px solid white;
+    border-radius: 1px;
+    padding: 1px;
+    transition: 0.1s linear;
+}
+.header__list--link:nth-child(1)
+{
+    border: 0.3px solid var(--text-box-color);
+    border-radius: 1px;
+    color: var(--text-box-color);
+}
+.header__list--link:nth-child(1):hover
+{
+    color: red;
+    border: 0.3px solid red;
+}
+.img__bg
+{
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
